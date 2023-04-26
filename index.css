@@ -1,0 +1,154 @@
+body{
+    background-color:rgb(255, 255, 255);
+    font-family: 'Hanken Grotesk', sans-serif;
+    padding: 0;
+    margin: 0;
+
+}
+
+.card{
+    display: flex;
+    margin: 200px auto;
+    width: 800px;
+    height: 430px;
+    background-color: white;
+    border-radius: 20px ;
+    box-shadow: 0px 0px 20px 1px rgba(0,0,255,0.2);
+}
+.right-card{
+    width: 400px;
+    background-color: white;
+    border-radius: 20px;
+    
+}
+.right-card-title{
+    font-weight: bold;
+    
+}
+.left-card{
+    width: 400px;
+    text-align: center;
+    border-radius: 20px;
+    background-color:rgb(89, 0, 255);
+}
+.circle{
+    width: 180px;
+    height: 180px;
+    text-align: center;
+    margin: 25px auto;
+    background-image: linear-gradient(rgb(77, 16, 189),rgb(91, 16, 230) );
+
+    border: 1px solid transparent;
+    border-radius: 180px ;
+}
+.row-one,
+.row-two,
+.row-three,
+.row-four{
+    display: flex;
+    width: 310px;
+    background-color: rgb(212, 11, 11);
+    padding: 5px;
+    margin: 10px;
+    margin-left: 50px;
+    border-radius: 15px;
+    
+    
+    
+}
+.row-one{
+    background-color: rgba(255,0,0,0.1);
+    
+}
+.row-two{
+    background-color: rgba(255, 255, 0, 0.1);
+   
+}
+.row-three{
+    background-color: rgba(0,255,0,0.1);
+}
+.row-four{
+    background-color: rgba(0,0,255,0.1);
+}
+.row-left{
+    display: flex;
+}
+.row-right{
+    display: flex;
+    margin-left:130px  ;
+}
+button{
+    width: 310px;
+    margin: 10px 50px;
+    padding: 10px;
+    border-radius: 90px;
+    border: 1px solid transparent;
+    
+    background: linear-gradient(rgb(77, 16, 189),rgb(91, 16, 230) );
+    transition: background 2s;
+    color: white;
+    font-weight: bold;
+    font-size: large;
+}
+button:hover {
+    background: linear-gradient(rgb(26, 4, 73),rgb(27, 2, 39) );
+    cursor: pointer;
+}
+.right-card-title{
+    margin-left: 50px ;
+
+}
+.row-para{
+    margin-left: 15px;
+}
+img{
+    margin-left: 15px;
+}
+.row-right-number-two{
+    margin-left: 15px ;
+}
+.row-right-number-two,
+.row-right-number{
+    color: rgba(0,0,0,0.5);
+    
+}
+.circle h1{
+    font-size: 56px;
+    color: white;
+}
+.result{
+    font-size: larger;
+    color: rgba(255, 255, 255,0.8);
+    font-weight: bold;
+}
+.h1-title{
+    color: rgba(255, 255, 255,0.8);
+}
+.left-card h3{
+    color: rgba(255, 255, 255,0.8);
+    font-size: larger;
+    
+}
+.h3-title{
+    margin-left: 65px;
+    margin-right: 65px;
+    color: rgba(255, 255, 255,0.6);
+}
+@media (max-width:500px) {
+    .card{
+        display: flex;
+        flex-wrap: wrap;
+        width: 100%;
+        margin: 0;
+        
+        
+    }
+    .right-card{
+        width: 100%;
+
+    }
+    .left-card{
+        width: 100%;
+    }
+    
+}
